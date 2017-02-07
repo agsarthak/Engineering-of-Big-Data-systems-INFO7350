@@ -1,0 +1,15 @@
+c:\users\sarthak\documents\visual studio 2015\Projects\Winnow_lab\Winnow_lab\bin\Debug\Winnow_lab.exe.config
+c:\users\sarthak\documents\visual studio 2015\Projects\Winnow_lab\Winnow_lab\bin\Debug\Winnow_lab.exe
+c:\users\sarthak\documents\visual studio 2015\Projects\Winnow_lab\Winnow_lab\bin\Debug\Winnow_lab.pdb
+c:\users\sarthak\documents\visual studio 2015\Projects\Winnow_lab\Winnow_lab\obj\Debug\Winnow_lab.csprojResolveAssemblyReference.cache
+c:\users\sarthak\documents\visual studio 2015\Projects\Winnow_lab\Winnow_lab\obj\Debug\Winnow_lab.exe
+c:\users\sarthak\documents\visual studio 2015\Projects\Winnow_lab\Winnow_lab\obj\Debug\Winnow_lab.pdb
+C:\Users\sarthak\Documents\Visual Studio 2015\Projects\Winnow_assignment\Winnow_lab\bin\Debug\Winnow_lab.exe.config
+C:\Users\sarthak\Documents\Visual Studio 2015\Projects\Winnow_assignment\Winnow_lab\obj\Debug\Winnow_lab.exe
+C:\Users\sarthak\Documents\Visual Studio 2015\Projects\Winnow_assignment\Winnow_lab\obj\Debug\Winnow_lab.pdb
+C:\Users\sarthak\Documents\Visual Studio 2015\Projects\Winnow_assignment\Winnow_lab\bin\Debug\Winnow_lab.exe
+C:\Users\sarthak\Documents\Visual Studio 2015\Projects\Winnow_assignment\Winnow_lab\bin\Debug\Winnow_lab.pdb
+C:\Users\sarthak\Documents\Visual Studio 2015\Projects\Winnow_assignment\Winnow_lab\obj\Debug\Winnow_lab.csprojResolveAssemblyReference.cache
+D:\GRAD_SCHOOL\Fall2016\Assignments\Assignment6\Part2 - Winnow\Code\Winnow_assignment\Winnow_lab\bin\Debug\Winnow_lab.exe.config
+D:\GRAD_SCHOOL\Fall2016\Assignments\Assignment6\Part2 - Winnow\Code\Winnow_assignment\Winnow_lab\obj\Debug\Winnow_lab.exe
+D:\GRAD_SCHOOL\Fall2016\Assignments\Assignment6\Part2 - Winnow\Code\Winnow_assignment\Winnow_lab\obj\Debug\Winnow_lab.pdb

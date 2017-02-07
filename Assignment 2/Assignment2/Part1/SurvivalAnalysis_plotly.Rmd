@@ -1,0 +1,95 @@
+---
+title: "SurvivalAnalysis_plotly"
+author: "Sarthak"
+date: "September 25, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Loading required libraries
+```{r message=FALSE}
+library(OIsurv)
+library(devtools)
+library(plotly)
+library(ggplot2)
+library(survival)
+library(GGally)
+```
+# Dataset
+I am using the `cancer` dataset from the `survival` package. It contains the information about 228 patients with advanced lung cancer from the North Cancer Treatment Group.
+This dataset is interesting to me as it has many daily life practical attributes against which lung cancer can be analyzed upon. 
+
+Performance scores rate how well the patient can perform usual daily activities.
+
+List of variables in cancer dataset:
+
+| Variable        | Description    |    
+| --------------- | -------------------------------------------------------------------|
+| `inst`          | Institution code                                                  |
+| `time`          | Survival time in days                                             |
+| `status`        | censoring status, 1=censored, 2=dead                              |
+| `age`           | age in years                                                      |
+| `sex`           | 1=Male, 2= Female                                                 |
+| `ph.ecog`       | ECOG performance score (0= good, 5=dead)                          |
+| `ph.karno`      | Karnofsky performance score (0=bad, 100=good) rated by physician  |
+| `pat.karno`     | Karnofsky performance score as rated by patient                   |
+| `meal.cal`      | calories consumed at meals                                        |
+| `wt.loss`       | Weight loss in last six months                                    | 
+
+ 
+```{r message=FALSE}
+data(cancer, package = "survival")
+attach(cancer)
+```
+
+The summary of the dataset looks like this:
+```{r}
+summary(cancer)
+```
+
+Top 6 rows are:
+```{r}
+head(cancer)
+```
+
+
+
+# Survival Objects
+`survfit` function works on `Surv` objects which are survival types created using `Surv()` function.
+
+Creating surv object:
+```{r}
+s <- Surv(time, status)
+```
+The plus-signs identify those observations that are right-censored
+
+Next, we create survival curve using `survfit`. `ggsurv` of `ggplot2` is used here.
+```{r}
+sf.cancer <- survfit(s ~ 1, data = cancer)
+p <- ggsurv(sf.cancer)
+ggplotly(p)
+```
+The graph displays the survival rate over time when all the attributes are considered.
+
+Publish it to plotly:
+```{r}
+#plotly_POST(p, "Survival vs Time")
+```
+
+## Gender wise survival rate
+The survival rate over time for males and females is observed here.
+
+Like above, First the surv object is created then the surviva curve is built. And then plotted with the help of ggsurv of ggplot2
+```{r}
+s1 <- Surv(time, status)
+sf.sex <- survfit(s1 ~ sex, data = cancer)
+pl.sex <- ggsurv(sf.sex)
+ggplotly(pl.sex)
+```
+This graph is also published to plotly.
+```{r}
+#plotly_POST(pl.sex, "Gender wise - Survival vs Time")
+```

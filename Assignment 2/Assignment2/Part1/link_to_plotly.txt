@@ -1,0 +1,9 @@
+
+First graph: Survival vs Time
+
+https://plot.ly/~sarthak12/2/survival-vs-time/
+
+
+Second Graph: Gender wise - Survival vs time
+
+https://plot.ly/~sarthak12/4/survival-vs-time/

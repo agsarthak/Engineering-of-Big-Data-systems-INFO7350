@@ -1,0 +1,12 @@
+c:\users\sarthak\documents\visual studio 2015\Projects\PrimeNumbers\PrimeNumbers\bin\Debug\PrimeNumbers.exe.config
+c:\users\sarthak\documents\visual studio 2015\Projects\PrimeNumbers\PrimeNumbers\bin\Debug\PrimeNumbers.exe
+c:\users\sarthak\documents\visual studio 2015\Projects\PrimeNumbers\PrimeNumbers\bin\Debug\PrimeNumbers.pdb
+c:\users\sarthak\documents\visual studio 2015\Projects\PrimeNumbers\PrimeNumbers\obj\Debug\PrimeNumbers.csprojResolveAssemblyReference.cache
+c:\users\sarthak\documents\visual studio 2015\Projects\PrimeNumbers\PrimeNumbers\obj\Debug\PrimeNumbers.exe
+c:\users\sarthak\documents\visual studio 2015\Projects\PrimeNumbers\PrimeNumbers\obj\Debug\PrimeNumbers.pdb
+D:\GRAD_SCHOOL\Fall2016\Assignments\Assignment1\Part4\PrimeNumbers\PrimeNumbers\bin\Debug\PrimeNumbers.exe.config
+D:\GRAD_SCHOOL\Fall2016\Assignments\Assignment1\Part4\PrimeNumbers\PrimeNumbers\obj\Debug\PrimeNumbers.exe
+D:\GRAD_SCHOOL\Fall2016\Assignments\Assignment1\Part4\PrimeNumbers\PrimeNumbers\obj\Debug\PrimeNumbers.pdb
+D:\GRAD_SCHOOL\Fall2016\Assignments\Assignment1\Part4\PrimeNumbers\PrimeNumbers\bin\Debug\PrimeNumbers.exe
+D:\GRAD_SCHOOL\Fall2016\Assignments\Assignment1\Part4\PrimeNumbers\PrimeNumbers\bin\Debug\PrimeNumbers.pdb
+D:\GRAD_SCHOOL\Fall2016\Assignments\Assignment1\Part4\PrimeNumbers\PrimeNumbers\obj\Debug\PrimeNumbers.csprojResolveAssemblyReference.cache
